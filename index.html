@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <!-- <style>
+    body {
+      background-color: rgb(9, 14, 52);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      box-sizing: border-box;
+    }
+  </style> -->
+  <title>Document</title>
+</head>
+
+<body>
+
+  <main class="container">
+    <form id="form">
+      <label for="">
+        IP del usuario
+        <input id="input" required type="text" placeholder="Introduce la ip...">
+        <small>Por ejemplo: 54.85.132.285</small>
+      </label>
+      <button id="submit">
+        buscar informacion de esta IP
+      </button>
+    </form>
+
+  </main>
+
+  <div style="width: 75%; margin: auto;">
+    <pre id="results">
+      
+    </pre>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+
+</html>
